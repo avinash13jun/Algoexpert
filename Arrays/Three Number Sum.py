@@ -24,6 +24,7 @@ def threeNumberSum(array, targetSum):
     return res
 
 array = [12, 3, 1, 2, -6, 5, -8, 6]
+#array = [-8, -6, 1, 2, 3, 5, 6, 12] --------
 targetSum = 0
 res = threeNumberSum(array, targetSum)
 print(res)
