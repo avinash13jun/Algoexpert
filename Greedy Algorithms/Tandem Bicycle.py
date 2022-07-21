@@ -1,7 +1,30 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jan 22 07:50:37 2022
+Created on Thu Jun 23 17:26:26 2022
 @author: Avinash Kumar
+"""
+
+"""
+1. Tandem bicycle is operated by 2 people
+2. Speed is determined by the person pedal faster
+3. Find the fastest total speed or slowest based on input
+
+3, 5 -> 5
+5, 6 -> 6
+
+6 + 5 -> 11
+
+Fastest :
+red -> 2,3,5,5,9
+blue -> 7,6,3,2,1
+
+Speed - 7,6,5,5,9 -> 32
+
+Slowest:
+red -> 2,3,5,5,9
+blue -> 1,2,3,6,7
+
+Speed - 2,3,5,6,9 -> 
 """
 
 def tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest):
